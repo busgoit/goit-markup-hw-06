@@ -555,6 +555,7 @@ body {
 
 .join-title,
 .join-us-title {
+  margin-top: 0;
   margin-bottom: 20px;
   color: var(--white-color);
   font-weight: 700;
@@ -815,4 +816,13 @@ body {
   box-sizing: border-box;
 
   cursor: pointer;
+}
+
+.modal-close-icon {
+  fill: currentColor;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  color: var(--brand-color);
 }
